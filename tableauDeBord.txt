@@ -1,0 +1,21 @@
+pendant vaccance : debut de developpement de l'application 1 et 2 (création des fenetre de base sans connect)
+
+reaprtition des tâches : thomas app1/alexandre app2/noé app1	
+
+06/05/24 : ajout des connect pour afficher les plan sur l'app1 et 2
+07/05/24 : 1er push des app et création du readMe.md/création des grille pour l'app1
+13/05/24 : ajout des connect manquant dans les app 1 et 2
+14/05/24 : ajout du menu pour la liste des course pour l'app 2 et resize des image pour l'app1
+15/05/24 : ajout d'une deuxieme fenetre pour la liste des course sur l'app 1 et ajout de l'affichage de la liste de course dans un label pour l'app2
+17/05/24 : essai de differente méthode pour faire le chemin le plus court
+21/05/24 : essai d'affichage de chemin
+22/05/24 : aide a la création de l'app1
+24/05/24 : aide a la crétion des produit placable
+28/05/24 : changement du mode d'affichage du plan 
+29/05/24 : implementation de dijkstra et amélioration du readMe
+31/05/24 : modification du code de l'app2 et ajout d'une écriture dans un txt pour la liste de course et affichage du contenu dans une nouvelle fenetre
+03/06/24 : tentative d'ajout d'un algorithme de dijkstra a l'application2
+04/06/24 : toujours dijkstra
+05/06/24 : tentative de changement du style du menu
+06/06/24 : changement de dijkstra et création de test
+07/06/24 : ajout du menu dans le même style que celui de l'app1

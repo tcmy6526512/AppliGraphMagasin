@@ -1,0 +1,24 @@
+Carnet de bord CHAMPY Thomas TD2 TPC
+
+Durant les vacances : étude du sujet, notes des premières idées et croquis de la vue pour l'app1 (emplacements boutons etc..)
+
+Répartition des tâches : thomas app1/alexandre app2/noé app1
+
+06/05/24 : mise en commun de l'avancement des différents membres du groupe, répartition des tâches, et commencement du développement de la vue pour l'application 1
+07/05/24 : 1er développement de la vue pour l'app1 (LineEdit pour nom projet, auteur projet, nom magasin, adresse magasin)
+13/05/24 : structuration de la fenêtre et des éléments en se basant sur le croquis (ajout de lignes QFrame pour marquer la séparation entre les layouts)
+14/05/24 : développement de la fonction pour charger le plan (utilisation de Pixmap, QGraphiqueScene ..) + ajout des connect
+15/05/24 : apport des modifications nécessaires pour faire en sorte que la taille de l'image s'adapte bien, que les images de se déforment pas
+17/05/24 : développement de la fonction pour la génération de la grille par dessus le plan (QSpinBox pour taille grille)
+21/05/24 : faire en sorte que la grille puisse être déplacée
+22/05/24 : première tentative pour rendre les cellules de la grille sélectionnables afin de pouvoir placer des produits
+24/05/24 : ajout de la liste des produits (un bouton qui ouvre un QDialog dans lequel on affiche, avec des QComboBox, le contenu du fichier json de la liste de course)
+28/05/24 : aide app2, changement du mode d'affichage pour le plan (QGraphiqueScene et QPixmap)
+29/05/24 : ajout des QCheckBox pour les produits + fonction pour récupérer les noms de produits cochés (Qt.CheckState.Checked), afin de créer un json correspondant au panier du client
+31/05/24 : ajout du bouton pour accéder et ouvrir dans un QDialog le panier avec les produits cochés dans la liste
+03/06/24 : aide pour l'app2, transmission des fonctions nécessaires pour liste des produits et panier et ajustement
+04/06/24 : modification de l'entièreté du code, mise en place du MVC (ajout des connect manquant mais auusi des .emit, etc..)
+05/06/24 : ajout des fonction pour enregistrer le projet, le supprimer et ouvrir un projet déja existant
+06/06/24 : tentative d'ajout de la fonctionnalité consistant a permettre de placer les produits dans la grille (tentative de rendre les cases de la grille sélectionnables, création fonction de récupération des coordonnées du clique, fonction pour attribuer ces coordonnée a un produit de la liste dans une liste (fonction grid))
+
+L'idée était de récupérer les coordonnées du clique, les assigner a un produit de la liste des produits, avec la liste de la fonction grid (un 0 correspond a une case de la grille) remplacer le 0 corespondant par le nom du produit. Malheureusement pas réussi à rendre mon idée fonctionnelle.
